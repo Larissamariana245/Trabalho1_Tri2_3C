@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --branco: rgb(255, 255, 255);
+    --cor-de-fundo: hwb(323 59% 0%);
+    --cor-do-texto: hwb(330 12% 9%);
+    --fundo-texto: #5f3a10;
+    --fundo-texto2: #995b0a;
+    --borda: #ca0054;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+   
+body{
+    color: var(--cor-do-texto);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto-mono);
+}
+
+
+.titulo-principal{
+    background-color: var(--fundo-texto);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+    background-color: var(--fundo-texto);
+}
+
+.checkbox{
+    color: aqua;
+    background-color: var(--fundo-texto2);
+    margin-top: 12px;
+    padding: 10px;
+}
